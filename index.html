@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Kenjsmentions by RudyJ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Kenjsmentions</h1>
+      <h2 class="project-tagline">http://kenjsmentions.innozone.com.br/</h2>
+      <a href="https://github.com/RudyJ/kenjsMentions" class="btn">View on GitHub</a>
+      <a href="https://github.com/RudyJ/kenjsMentions/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/RudyJ/kenjsMentions/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <p>
+    </p>
+      
+      
+      
+      
+      
+      
+    
+    
+      <div>
+        <div>
+            <div>
+                <div>
+                    <b>jQuery Plugin</b>
+                    <h1>
+<a id="kenjsmentionsjs" class="anchor" href="#kenjsmentionsjs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>kenjs<b>Mentions</b>.js</h1>
+<hr>
+                    <div>
+                        <p>O kenjsMentions é um simples plugin jQuery, que tem a finalidade de trazer informações dinâmicamente de um banco de dados para a página, o objetivo real da criação deste plugin se deu na necessidade de ter um slide dinâmico de frases.</p>
+                    </div>
+                    <h3>
+<a id="demo" class="anchor" href="#demo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Demo</h3>
+<hr>
+                    <a href="http://kenjsmentions.innozone.com.br/">http://kenjsmentions.innozone.com.br/</a>
+                    <h3>
+<a id="exemplo" class="anchor" href="#exemplo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Exemplo</h3>
+<hr>
+                    <pre>
+                        <code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"/&gt;
+  &lt;meta charset="utf-8" /&gt;
+  &lt;title&gt;kenjsMention&lt;/title&gt;
+  &lt;link href="<a href="http://fonts.googleapis.com/icon?family=Material+Icons">http://fonts.googleapis.com/icon?family=Material+Icons</a>" rel="stylesheet"&gt;
+  &lt;link rel="stylesheet" href="<a href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css%22%3E">https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css"&gt;</a>
+  &lt;link rel="stylesheet" href="<a href="https://cdn.jsdelivr.net/animatecss/3.5.1/animate.min.css%22%3E">https://cdn.jsdelivr.net/animatecss/3.5.1/animate.min.css"&gt;</a>
+  &lt;link rel="stylesheet" href="<a href="https://highlightjs.org/static/demo/styles/github.css%22%3E">https://highlightjs.org/static/demo/styles/github.css"&gt;</a>
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;div id='example'&gt;&lt;/div&gt;
+  &lt;script type="text/javascript" src="<a href="https://code.jquery.com/jquery-2.1.1.min.js%22%3E&amp;lt;/script%3E">https://code.jquery.com/jquery-2.1.1.min.js"&gt;&amp;lt;/script&gt;</a>
+  &lt;script src="<a href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js%22%3E&amp;lt;/script%3E">https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"&gt;&amp;lt;/script&gt;</a>
+  &lt;script type="text/javascript" src="jQuery.kenjsMentions.js"&gt;&lt;/script&gt;
+  &lt;script type="text/javascript"&gt;
+    $(document).ready(function() {
+        $("#mention").kenjsMentions({
+            'background' : 'blue darken-3', 
+            'color' : 'white-text', 
+            'flow' : true, 
+            'duration' : 4, 
+            'float' : 'right', 
+            'align' : 'right-align', 
+            'url' : 'database.php',
+            'animation' : 'bounceInLeft' 
+            });
+  });
+  &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code>
+</pre>
+                    <h3>
+<a id="baixar" class="anchor" href="#baixar" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Baixar</h3>
+<hr>
+                    <div>
+                        <div><p><a href="https://code.jquery.com/jquery-latest.min.js"><i></i>jQuery</a></p></div>
+                        <div><p><a href="http://materializecss.com/bin/materialize-v0.97.6.zip"><i></i>Materialize</a></p></div>
+                        <div><p><a href="https://cdn.jsdelivr.net/animatecss/3.5.1/animate.min.css"><i></i>AnimateCSS</a></p></div>
+                        <div><p><a href="http://kenjsmentions.innozone.com.br/jQuery.kenjsMentions.min.js"><i></i>kenjsMentions</a></p></div>
+                        <div></div>
+                    </div>
+                    <h3>
+<a id="opções" class="anchor" href="#op%C3%A7%C3%B5es" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Opções</h3>
+<hr>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Option Name</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>width</td>
+                                <td>Utilize as classes de largura do <i>Materialize</i>, sem a classe .col. Exemplo: s12 m6 l3<p><b>PS.: </b>classes offset também podem ser incluídas.</p>
+<p>Padrão : s12</p>
+</td>
+                            </tr>
+                            <tr>
+                                <td>background</td>
+                                <td>Utilize classes de cor de fundo do <i>Materialize</i>, exemplo : red lighten-3<p>Padrão : blue darken-3</p>
+</td>
+                            </tr>
+                            <tr>
+                                <td>color</td>
+                                <td>Utilize classes de cor de texto do <i>Materialize</i>, exemplo : blue-text text-darken-3<p>Padrão : white-text</p>
+</td>
+                            </tr>
+                            <tr>
+                                <td>flow</td>
+                                <td>Defina com <b>true</b> e <b>false</b> para decidir a utilização da classe <i>flow-text</i> do <i>Materialize</i><p>Padrão : true</p>
+</td>
+                            </tr>
+                            <tr>
+                                <td>duration</td>
+                                <td>Defina o valor em segundos, a transição do slide.<p>Padrão : 4</p>
+</td>
+                            </tr>
+                            <tr>
+                                <td>float</td>
+                                <td>Defina a direção, caso queira, com left e right, para flutuar a posição do slide.<p>Padrão : left</p>
+</td>
+                            </tr>
+                            <tr>
+                                <td>align</td>
+                                <td>Defina o alinhamento do texto, caso queira, com left-align, center-align e right-align, para alinhar a posição do texto no slide.<p>Padrão : left-align</p>
+</td>
+                            </tr>
+                            <tr>
+                                <td>url</td>
+                                <td>Defina a url do arquivo que retornará o conteúdo a ser incluso no slide.</td>
+                            </tr>
+                            <tr>
+                                <td>animation</td>
+                                <td>Defina a classe que animará a transição dos slides, lista de classe orientada pelo <a href="https://daneden.github.io/animate.css/">animate.css</a>.<p>Padrão : fadeIn</p>
+</td>
+                            </tr>
+                        </tbody>
+                    </table>
+</div>
+</div>
+</div>
+</div>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/RudyJ/kenjsMentions">Kenjsmentions</a> is maintained by <a href="https://github.com/RudyJ">RudyJ</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
