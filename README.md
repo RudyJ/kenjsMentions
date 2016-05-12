@@ -1,14 +1,4 @@
 <html>
-    <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	  <meta charset="utf-8" />
-	  <title>kenjsMention</title>
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
-	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/animatecss/3.5.1/animate.min.css">
-	  <link rel="stylesheet" href="https://highlightjs.org/static/demo/styles/github.css">
-	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css" />
-    </head>
     <body class='yellow lighten-3'>
 	  <div class="container">
 		<div class="row">
